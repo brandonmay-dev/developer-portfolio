@@ -106,4 +106,4 @@ brandonmay.dev
 - Portfolio: [brandonmay.dev](https://brandonmay.dev)
 - GitHub: [github.com/brandonmay-dev](https://github.com/brandonmay-dev)
 - LinkedIn: [linkedin.com/in/brandonmaydev](https://www.linkedin.com/in/brandonmaydev)
-- Email: [brandon@brandonmay.dev](mailto:brandon@brandonmay.dev)
+- Email: [brandon@brandonmay.dev]
