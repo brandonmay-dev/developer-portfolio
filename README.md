@@ -1,16 +1,96 @@
-# React + Vite
+# Brandon May Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio site for Brandon May, built to showcase full-stack development skills, featured projects, experience, and contact information in a polished single-page experience.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project is a responsive portfolio built with React and Vite. It highlights Brandon's work as a junior full-stack developer through a modern landing page, featured project cards, an experience timeline, resume download, and a contact form powered by EmailJS.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Animated hero section with social links and resume download
+- About section focused on full-stack strengths and career goals
+- Featured project showcase with live demo and GitHub links
+- Experience timeline for independent, open-source, and academic work
+- Contact form integration using EmailJS
+- Responsive layout with custom visuals, motion, and branded styling
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 19
+- Vite 8
+- Tailwind CSS 4
+- EmailJS Browser SDK
+- Lucide React
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18 or newer
+- npm
+
+### Installation
+
+```bash
+npm install
+```
+
+### Run Locally
+
+```bash
+npm run dev
+```
+
+Open the local URL printed by Vite in your browser.
+
+## Environment Variables
+
+The contact form depends on EmailJS. Create a `.env` file in the project root with:
+
+```env
+VITE_EMAILJS_SERVICE_ID=
+VITE_EMAILJS_TEMPLATE_ID=
+VITE_EMAILJS_PUBLIC_KEY=
+```
+
+Without these values, the contact form will render but message submission will fail.
+
+## Available Scripts
+
+- `npm run dev` starts the development server
+- `npm run build` creates a production build
+- `npm run preview` previews the production build locally
+- `npm run lint` runs ESLint
+
+## Project Structure
+
+```text
+src/
+  components/   Reusable UI building blocks
+  layout/       Shared page layout pieces
+  sections/     Portfolio sections such as Hero, Projects, and Contact
+  App.jsx       Main page composition
+  main.jsx      App entry point
+
+public/
+  projects/     Project screenshots
+  Brandon-May-Resume.pdf
+  profile-photo.jpg
+```
+
+## Featured Projects
+
+### Sync
+
+A full-stack music streaming and real-time chat app where users can browse albums, play songs, view online users, and message each other in real time.
+
+### Smart Brain
+
+A full-stack AI face detection app where users can register, sign in, submit image URLs, detect faces, and track their submission count.
+
+## Contact
+
+- GitHub: [github.com/brandonmay-dev](https://github.com/brandonmay-dev)
+- LinkedIn: [linkedin.com/in/brandonmaydev](https://www.linkedin.com/in/brandonmaydev)
+- Email: [brandon@brandonmay.dev](mailto:brandon@brandonmay.dev)
