@@ -37,7 +37,7 @@ const projects = [
       "A full-stack AI face detection app where users can register, sign in, submit image URLs, detect faces, and track their saved image submission count.",
     image: "/projects/smart-brain.png",
     tags: ["React", "Node.js", "Express", "PostgreSQL", "Clarifai"],
-    link: "https://smart-brain-app-32fac457676f.herokuapp.com/",
+    link: "https://smartbrain.brandonmay.dev/",
     github: "https://github.com/brandonmay-dev/smart-brain",
   },
 ];
