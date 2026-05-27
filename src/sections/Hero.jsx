@@ -139,7 +139,10 @@ export const Hero = () => {
                 </Button>
               </a>
 
-              <AnimatedBorderButton href="/Brandon-May-Resume.pdf" download>
+              <AnimatedBorderButton
+                href="/Brandon_May_Full_Stack_Developer_Resume.pdf"
+                download
+              >
                 <Download className="w-5 h-5" />
                 Download Resume
               </AnimatedBorderButton>
