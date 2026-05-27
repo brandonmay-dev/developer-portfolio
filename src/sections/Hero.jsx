@@ -6,21 +6,21 @@ const skills = [
   "JavaScript",
   "TypeScript",
   "React",
-  "Vite",
+  "Next.js",
   "Node.js",
   "Express.js",
   "REST APIs",
   "MongoDB",
   "PostgreSQL",
-  "Knex",
+  "Convex",
   "Socket.IO",
+  "Stream Video",
   "Zustand",
   "Tailwind CSS",
   "Shadcn UI",
   "Clerk",
   "Cloudinary",
-  "Clarifai",
-  "bcryptjs",
+  "Monaco Editor",
   "Git",
   "GitHub",
 ];
@@ -107,29 +107,27 @@ export const Hero = () => {
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                Junior Full-Stack Developer • React & Node.js
+                Full-Stack Developer • React, Next.js & Node.js
               </span>
             </div>
 
             {/* Headline */}
             <div className="space-y-4">
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in animation-delay-100">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight animate-fade-in animation-delay-100">
                 Building{" "}
-                <span className="text-primary glow-text">full-stack</span>
+                <span className="text-primary glow-text">interactive</span>
                 <br />
-                web apps with
+                tools that connect
                 <br />
                 <span className="font-serif italic font-normal text-white">
-                  real-world impact.
+                  people, data, and ideas.
                 </span>
               </h1>
 
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Brandon May — a junior full-stack developer focused on
-                building modern web applications with React, TypeScript,
-                Node.js, and Express. I build projects that connect clean
-                frontend experiences with APIs, databases, authentication, and
-                real-time features.
+                I'm Brandon May, a full-stack developer building polished web
+                applications with reliable APIs, authentication, databases,
+                real-time features, and third-party integrations.
               </p>
             </div>
 
@@ -183,14 +181,14 @@ export const Hero = () => {
                   <div className="flex items-center gap-3">
                     <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
                     <span className="text-sm font-medium">
-                      Available for work
+                      Open to remote roles
                     </span>
                   </div>
                 </div>
 
                 {/* Project Badge */}
                 <div className="absolute -top-4 -left-4 glass rounded-xl px-4 py-3 animate-float animation-delay-500">
-                  <div className="text-2xl font-bold text-primary">2</div>
+                  <div className="text-2xl font-bold text-primary">3</div>
                   <div className="text-xs text-muted-foreground">
                     Featured Projects
                   </div>

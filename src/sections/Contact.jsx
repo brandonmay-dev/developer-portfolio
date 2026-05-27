@@ -35,7 +35,7 @@ const contactInfo = [
   {
     icon: MapPin,
     label: "Location",
-    value: "Charlotte, NC",
+    value: "Charlotte, NC / Remote",
     href: "#",
   },
   {
@@ -142,9 +142,9 @@ export const Contact = () => {
           </h2>
 
           <p className="text-muted-foreground animate-fade-in animation-delay-200">
-            I&apos;m currently looking for junior full-stack, frontend, and
-            software developer opportunities. If my projects look like a fit,
-            feel free to reach out.
+            I&apos;m currently open to frontend, full-stack, contract, and
+            remote-friendly developer opportunities. If my work looks like a
+            fit, feel free to reach out.
           </p>
         </div>
 
@@ -299,10 +299,11 @@ export const Contact = () => {
               </div>
 
               <p className="text-muted-foreground text-sm">
-                I&apos;m currently open to junior full-stack, frontend, software
-                developer, and remote-friendly roles. I&apos;m especially
+                I&apos;m open to frontend, full-stack, software developer,
+                contract, and remote-friendly roles. I&apos;m especially
                 interested in teams building practical web applications with
-                React, Node.js, APIs, databases, and real-time features.
+                React, Next.js, TypeScript, Node.js, APIs, databases,
+                authentication, and real-time features.
               </p>
             </div>
           </div>

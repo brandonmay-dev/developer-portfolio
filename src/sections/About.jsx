@@ -3,27 +3,27 @@ import { Code2, Lightbulb, Rocket, Users } from "lucide-react";
 const highlights = [
   {
     icon: Code2,
-    title: "Full-Stack Apps",
+    title: "Full-Stack Development",
     description:
-      "React frontends, Node.js APIs, databases, authentication, and third-party integrations.",
+      "Building polished React and Next.js frontends with reliable Node.js APIs, databases, authentication, and integrations.",
   },
   {
     icon: Rocket,
-    title: "Practical Features",
+    title: "Interactive Features",
     description:
-      "Real-time chat, media uploads, AI detection, persistent data, and dynamic UI updates.",
+      "Creating real-time chat, live coding tools, media workflows, AI-powered features, and dynamic user interfaces.",
   },
   {
     icon: Users,
-    title: "Developer Workflow",
+    title: "Collaborative Workflow",
     description:
-      "Git, GitHub, pull requests, issue tracking, and open-source collaboration.",
+      "Working with Git, GitHub, pull requests, issue tracking, documentation, and open-source contribution workflows.",
   },
   {
     icon: Lightbulb,
-    title: "Always Improving",
+    title: "Continuous Growth",
     description:
-      "Growing through projects, CS coursework, and consistent full-stack development practice.",
+      "Strengthening my skills through full-stack projects, computer science coursework, and consistent development practice.",
   },
 ];
 
@@ -41,41 +41,39 @@ export const About = () => {
             </div>
 
             <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animation-delay-100 text-secondary-foreground">
-              Turning ideas into
+              Clean interfaces.
+              <br />
               <span className="font-serif italic font-normal text-white">
                 {" "}
-                full-stack applications.
+                Strong systems.
               </span>
             </h2>
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                I'm a junior full-stack developer and Computer Science student
-                who enjoys turning ideas into working web applications. I work
-                mainly with React, TypeScript, Node.js, Express, MongoDB, and
-                PostgreSQL.
+                I’m Brandon May, a full-stack developer and Computer Science
+                student building interactive web applications with React,
+                Next.js, TypeScript, Node.js, and modern backend tools.
               </p>
               <p>
-                I have built projects that include authentication, REST APIs,
-                real-time chat, media uploads, database persistence, third-party
-                API integrations, and responsive frontend interfaces. I care
-                about building apps that are useful, understandable, and easy to
-                keep improving.
+                My projects focus on real-world workflows: live coding
+                interviews, music streaming with real-time chat, AI face
+                detection, authentication, databases, media handling, and
+                third-party API integrations.
               </p>
               <p>
-                Right now, I'm focused on sharpening my full-stack skills
-                through personal projects, open-source work, and real-world
-                development workflows. I'm looking for junior developer
-                opportunities where I can contribute to a team and grow into a
-                stronger software engineer.
+                I like building applications that feel polished on the frontend
+                and dependable behind the scenes. Right now, I’m focused on
+                growing through independent projects, open-source contributions,
+                and team-based development workflows while pursuing remote
+                frontend and full-stack developer opportunities.
               </p>
             </div>
 
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
               <p className="text-lg font-medium italic text-foreground">
-                "My mission is to build clean, reliable web applications that
-                combine thoughtful user experiences with maintainable full-stack
-                architecture."
+                "I build clean, reliable web applications that pair thoughtful
+                user experiences with maintainable full-stack architecture."
               </p>
             </div>
           </div>

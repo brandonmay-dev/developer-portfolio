@@ -4,12 +4,12 @@ const experiences = [
     role: "Full-Stack Developer",
     company: "Independent Projects",
     description:
-      "Building full-stack web applications with React, TypeScript, Node.js, Express, MongoDB, PostgreSQL, REST APIs, authentication, real-time features, and third-party API integrations.",
+      "Building full-stack applications with React, Next.js, TypeScript, Node.js, Express, MongoDB, PostgreSQL, authentication, real-time features, and third-party integrations.",
     technologies: [
       "React",
+      "Next.js",
       "TypeScript",
       "Node.js",
-      "Express",
       "MongoDB",
       "PostgreSQL",
       "Socket.IO",
@@ -21,7 +21,7 @@ const experiences = [
     role: "Open-Source Web Developer",
     company: "Zero To Mastery",
     description:
-      "Contributing to open-source web projects through GitHub pull requests, issue tracking, frontend improvements, bug fixes, documentation updates, and collaborative development workflows.",
+      "Contributing to open-source web projects through pull requests, issue tracking, frontend improvements, bug fixes, documentation updates, and collaborative GitHub workflows.",
     technologies: ["Git", "GitHub", "Pull Requests", "JavaScript", "React"],
     current: true,
   },
@@ -30,7 +30,7 @@ const experiences = [
     role: "Computer Science Student",
     company: "Western Governors University",
     description:
-      "Studying computer science fundamentals while applying software engineering concepts through practical full-stack projects, backend APIs, databases, and modern frontend development.",
+      "Studying computer science fundamentals while applying software engineering concepts through full-stack projects, backend APIs, relational databases, and modern frontend development.",
     technologies: ["Computer Science", "JavaScript", "SQL", "Web Development"],
     current: true,
   },
@@ -56,23 +56,22 @@ export const Experience = () => {
 
           <h2
             className="text-4xl md:text-5xl font-bold
-           mt-4 mb-6 animate-fade-in animation-delay-100
-            text-secondary-foreground"
+ mt-4 mb-6 animate-fade-in animation-delay-100
+  text-secondary-foreground"
           >
-            Building skills through{" "}
+            Growing through{" "}
             <span className="font-serif italic font-normal text-white">
-              real projects.
+              real development work.
             </span>
           </h2>
 
           <p
             className="text-muted-foreground
-           animate-fade-in animation-delay-200"
+ animate-fade-in animation-delay-200"
           >
-            My development experience is focused on building full-stack
-            applications, contributing to open-source projects, and
-            strengthening my computer science foundation through hands-on
-            practice.
+            My experience combines independent full-stack development,
+            open-source collaboration, and computer science study with a focus
+            on building practical, maintainable web applications.
           </p>
         </div>
 

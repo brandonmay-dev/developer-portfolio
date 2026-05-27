@@ -14,6 +14,15 @@ const GitHubLogo = ({ className }) => (
 
 const projects = [
   {
+    title: "DevCall",
+    description:
+      "A full-stack remote coding interview platform with scheduling, real-time video calls, a live coding workspace, feedback, and recording playback.",
+    image: "/projects/devcall.png",
+    tags: ["Next.js", "TypeScript", "Clerk", "Convex", "Stream Video"],
+    link: "https://devcall.brandonmay.dev/",
+    github: "https://github.com/brandonmay-dev/devcall",
+  },
+  {
     title: "Sync",
     description:
       "A full-stack music streaming and real-time chat app where users can browse albums, play songs, view online users, and message users in real time.",
@@ -41,7 +50,6 @@ export const Projects = () => {
       <div className="absolute bottom-1/4 left-0 w-64 h-64 bg-highlight/5 rounded-full blur-3xl" />
 
       <div className="container mx-auto px-6 relative z-10">
-        {/* Section Header */}
         <div className="text-center mx-auto max-w-3xl mb-16">
           <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase animate-fade-in">
             Featured Work
@@ -51,23 +59,23 @@ export const Projects = () => {
             Projects with
             <span className="font-serif italic font-normal text-white">
               {" "}
-              real-world features.
+              real-world workflows.
             </span>
           </h2>
 
           <p className="text-muted-foreground animate-fade-in animation-delay-200">
-            Full-stack applications built with modern frontend tools, backend
-            APIs, authentication, databases, real-time features, and third-party
-            integrations.
+            Full-stack applications that combine polished interfaces, reliable
+            APIs, authentication, databases, real-time communication, and
+            third-party integrations.
           </p>
         </div>
 
         {/* Projects Grid */}
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, idx) => (
             <div
               key={project.title}
-              className="group glass rounded-2xl overflow-hidden animate-fade-in md:row-span-1"
+              className="group glass rounded-2xl overflow-hidden animate-fade-in"
               style={{ animationDelay: `${(idx + 1) * 100}ms` }}
             >
               {/* Image */}
