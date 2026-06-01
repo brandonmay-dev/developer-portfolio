@@ -4,7 +4,7 @@ const experiences = [
     role: "Full-Stack Developer",
     company: "Independent Projects",
     description:
-      "Building full-stack applications with React, Next.js, TypeScript, Node.js, Express, MongoDB, PostgreSQL, authentication, real-time features, and third-party integrations.",
+      "Building production-style web applications with React, Next.js, TypeScript, Node.js, Express, MongoDB, PostgreSQL, Convex, authentication, real-time features, and third-party integrations.",
     technologies: [
       "React",
       "Next.js",
@@ -12,17 +12,9 @@ const experiences = [
       "Node.js",
       "MongoDB",
       "PostgreSQL",
+      "Convex",
       "Socket.IO",
     ],
-    current: true,
-  },
-  {
-    period: "Dec 2025 — Present",
-    role: "Open-Source Web Developer",
-    company: "Zero To Mastery",
-    description:
-      "Contributing to open-source web projects through pull requests, issue tracking, frontend improvements, bug fixes, documentation updates, and collaborative GitHub workflows.",
-    technologies: ["Git", "GitHub", "Pull Requests", "JavaScript", "React"],
     current: true,
   },
   {
@@ -31,7 +23,7 @@ const experiences = [
     company: "Western Governors University",
     description:
       "Studying computer science fundamentals while applying software engineering concepts through full-stack projects, backend APIs, relational databases, and modern frontend development.",
-    technologies: ["Computer Science", "JavaScript", "SQL", "Web Development"],
+    technologies: ["Computer Science", "JavaScript", "TypeScript", "SQL"],
     current: true,
   },
 ];
@@ -59,9 +51,9 @@ export const Experience = () => {
  mt-4 mb-6 animate-fade-in animation-delay-100
   text-secondary-foreground"
           >
-            Growing through{" "}
+            Learning by building{" "}
             <span className="font-serif italic font-normal text-white">
-              real development work.
+              real applications.
             </span>
           </h2>
 
@@ -69,9 +61,9 @@ export const Experience = () => {
             className="text-muted-foreground
  animate-fade-in animation-delay-200"
           >
-            My experience combines independent full-stack development,
-            open-source collaboration, and computer science study with a focus
-            on building practical, maintainable web applications.
+            My experience combines independent full-stack development and
+            computer science study, with a focus on building practical,
+            maintainable web applications.
           </p>
         </div>
 

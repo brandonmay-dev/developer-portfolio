@@ -2,6 +2,12 @@ import { Code2, Lightbulb, Rocket, Users } from "lucide-react";
 
 const highlights = [
   {
+    icon: Users,
+    title: "Developer Workflow",
+    description:
+      "Working with Git, GitHub, pull requests, issue tracking, documentation, and collaborative development practices.",
+  },
+  {
     icon: Code2,
     title: "Full-Stack Development",
     description:
